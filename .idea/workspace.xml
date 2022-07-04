@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b4f865-3f30-4146-847e-4e8a1e1230e0" name="Changes" comment="Adicionando testaSet">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/testaMap.kt" afterDir="false" />
+    <list default="true" id="04b4f865-3f30-4146-847e-4e8a1e1230e0" name="Changes" comment="Adicionando testaMap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/testaMap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/testaMap.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656643600920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionando testaMap">
+      <created>1656700653696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656700653696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +109,7 @@
     <MESSAGE value="Iniciando projeto de collection do curso Collections: set e map da Alura" />
     <MESSAGE value="arquivos xml" />
     <MESSAGE value="Adicionando testaSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando testaSet" />
+    <MESSAGE value="Adicionando testaMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando testaMap" />
   </component>
 </project>
