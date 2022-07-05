@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b4f865-3f30-4146-847e-4e8a1e1230e0" name="Changes" comment="Adicionando testaMap">
+    <list default="true" id="04b4f865-3f30-4146-847e-4e8a1e1230e0" name="Changes" comment="Adicionando a função comportamentosMap e atualizando o arquivo testaMap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/testaMap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/testaMap.kt" afterDir="false" />
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656700653696</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adicionando a função comportamentosMap e atualizando o arquivo testaMap">
+      <created>1656969161612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656969161613</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +117,7 @@
     <MESSAGE value="arquivos xml" />
     <MESSAGE value="Adicionando testaSet" />
     <MESSAGE value="Adicionando testaMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando testaMap" />
+    <MESSAGE value="Adicionando a função comportamentosMap e atualizando o arquivo testaMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando a função comportamentosMap e atualizando o arquivo testaMap" />
   </component>
 </project>

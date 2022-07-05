@@ -89,3 +89,53 @@ fun testaMap(pedidos: MutableMap<Int, Double>) {
     pedidos.putIfAbsent(6, 300.0)
     println(pedidos)
 }
+
+fun agrupamentoMap() {
+    val pedidos = listOf(
+        Pedido(1, 20.0),
+        Pedido(2, 90.0),
+        Pedido(3, 45.0),
+        Pedido(4, 60.0),
+        Pedido(5, 15.0),
+        Pedido(6, 110.0),
+        Pedido(7, 50.0)
+    )
+    println(pedidos)
+    val pedidosMapeados: Map<Int, Pedido> = pedidos.associateBy { pedido ->
+        pedido.numero
+    }
+    println(pedidosMapeados)
+    println(pedidosMapeados[1])
+
+    val pedidosFreteGratis: Map<Pedido, Boolean> = pedidos.associateWith { pedido ->
+        pedido.valor > 50.0
+    }
+    println(pedidosFreteGratis)
+    println(pedidosFreteGratis[Pedido(numero = 2, valor = 60.0)])
+
+    val pedidosFreteGratisAgrupados: Map<Boolean, List<Pedido>> =
+        pedidos.groupBy { pedido: Pedido ->
+            pedido.valor > 50.0
+        }
+    println(pedidosFreteGratisAgrupados)
+    println(pedidosFreteGratisAgrupados[true])
+
+    val nomes = listOf(
+        "Bruno",
+        "Nanna",
+        "Lídia",
+        "Felipe",
+        "Maik",
+        "Gustavo",
+        "Jonis",
+        "Isa",
+        "Julya",
+    )
+
+    val agenda: Map<Char, List<String>> = nomes.groupBy { nome ->
+        nome.first()
+    }
+
+    println(agenda)
+    println(agenda['J'])
+}
